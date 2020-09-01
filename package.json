@@ -1,5 +1,5 @@
 {
-  "name": "react-qmap",
+  "name": "@hekit/react-qmap",
   "version": "0.1.9",
   "description": "react qqmap component",
   "keywords": ["react", "map", "react-map"],

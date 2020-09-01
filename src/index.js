@@ -39,7 +39,7 @@ class ReactQMap extends Component {
             script.type = 'text/javascript';
             script.async = true;
             script.src = src;
-            script.crossOrigin = true;
+            // script.crossOrigin = true;
             document.body.appendChild(script);
             script.onload = () => {     // js加载以后
                 QMap = window.qq.maps;
