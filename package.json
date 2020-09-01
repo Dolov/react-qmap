@@ -1,15 +1,19 @@
 {
   "name": "@hekit/react-qmap",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "react qqmap component",
-  "keywords": ["react", "map", "react-map"],
+  "keywords": [
+    "react",
+    "map",
+    "react-map"
+  ],
   "homepage": "https://github.com/yezihaohao/react-qmap",
   "bugs": {
     "url": "https://github.com/yezihaohao/react-qmap/issues"
   },
-  "repository" :{
-    "type" : "git",
-    "url" : "https://github.com/yezihaohao/react-qmap"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yezihaohao/react-qmap"
   },
   "main": "index.js",
   "scripts": {
