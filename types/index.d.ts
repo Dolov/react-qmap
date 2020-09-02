@@ -45,6 +45,7 @@ export interface PostionProps {
 export interface ReactQMapProps {
     apiKey: string;
     center: PostionProps;
+    markerIcon?: string;
     style?: React.CSSProperties;
     getMap?: (currentMapInstance: any, globalMap: any) => void;
     className?: string;

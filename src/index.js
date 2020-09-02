@@ -66,17 +66,19 @@ class ReactQMap extends Component {
         mySpot && this._mySpot(new QMap.LatLng(mySpot.latitude, mySpot.longitude));
         getContainer && getContainer(this.container);
     }
-    _mySpot = (position, icon = require('./imgs/my-position_small.png')) => {
+    // _mySpot = (position, icon = require('./imgs/my-position_small.png')) => {
+    _mySpot = (position, icon = 'https://3gimg.qq.com/lightmap/components/locationPicker2/image/marker.png') => {
         this.myPositionMarker = new QMap.Marker({
             icon: this._setMarkerImg(icon),
             position,
             map: this.map,
+            animation: qq.maps.MarkerAnimation.DROP,
         });
     }
     _setMarkerImg = (icon) => {
         const anchor = new QMap.Point(6, 6),
-            size = new QMap.Size(32, 32),
-            sizeSm = new QMap.Size(22, 22),
+            size = new QMap.Size(26, 36),
+            sizeSm = new QMap.Size(26, 36),
             origin = new QMap.Point(0, 0);
         return new QMap.MarkerImage(icon, sizeSm, origin, anchor, sizeSm);
     }
