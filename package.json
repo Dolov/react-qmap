@@ -1,7 +1,8 @@
 {
   "name": "@hekit/react-qmap",
-  "version": "0.1.10",
+  "version": "0.1.14",
   "description": "react qqmap component",
+  "types": "./types/index.d.ts",
   "keywords": [
     "react",
     "map",
@@ -19,6 +20,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "npx babel src -d lib"
+  },
+  "publishConfig": {
+    "registry": "http://npm.clickpaas.tech/repository/clickpaas-npm/"
   },
   "author": "chenghao",
   "license": "MIT",
