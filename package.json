@@ -1,6 +1,6 @@
 {
   "name": "@hekit/react-qmap",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "react qqmap component",
   "types": "./types/index.d.ts",
   "keywords": [

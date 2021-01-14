@@ -10,7 +10,7 @@ const checkCenter = center => center && center.latitude && center.longitude;
 
 class ReactQMap extends Component {
     componentDidMount() {
-        if (!QMap) this._addScript();
+        if (!QMap || !QMap.LatLng) this._addScript();
         else checkCenter(this.props.center) && this._initMap(this.props);  // center存在时执行初始化
     }
     componentDidUpdate(prevProps) {
